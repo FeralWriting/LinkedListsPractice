@@ -1,6 +1,6 @@
-package Assignment13B;
+package LinkedListsPractice;
 
-public class Assignment13B {
+public class Main {
     public static void main(String[] args) {
         PriorityQueue myTasks=new PriorityQueue();
         myTasks.addTask("Rest & Relax over break","high");
@@ -12,7 +12,6 @@ public class Assignment13B {
         myTasks.addTask("Do course evaluations for CSE1322L","medium");
 
         for(int i=0;i<8;i++) {
-            //If you are Java:
             System.out.println(myTasks.getNextTask());
         }
            
